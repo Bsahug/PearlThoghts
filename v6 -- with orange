@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>11/05/25</title>
+  <style>
+    @keyframes blinkColor {
+      0% { color: red; }
+      33% { color: pink; }
+      66% { color: orange; }
+      100% { color: red; }
+    }
+
+    .blink {
+      animation: blinkColor 3s infinite; /* Animation cycle with 3s duration */
+    }
+  </style>
+</head>
+<body style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100vh; margin: 0; font-family: monospace; background-color: white;">
+
+  <!-- Text for each line -->
+  <div style="font-size: 60px;">Minakshi (Since 1975)</div>
+  <div class="blink" style="font-size: 100px; font-weight: bold;">Happy Mother's Day</div>
+  <div style="font-size: 60px;">Mausumi (Since 1976)</div>
+
+</body>
+</html>
